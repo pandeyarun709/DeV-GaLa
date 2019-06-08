@@ -1,0 +1,19 @@
+{
+  "name": "dev-gala",
+  "version": "1.0.0",
+  "description": "Social sites for Developer",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pandeyarun709/DeV-GaLa.git"
+  },
+  "author": "Arun Pandey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pandeyarun709/DeV-GaLa/issues"
+  },
+  "homepage": "https://github.com/pandeyarun709/DeV-GaLa#readme"
+}
