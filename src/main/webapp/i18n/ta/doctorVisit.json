@@ -1,0 +1,36 @@
+{
+  "hospitalBeApp": {
+    "doctorVisit": {
+      "home": {
+        "title": "Doctor Visits",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Doctor Visit-ஐ உருவாக்கு",
+        "createOrEditLabel": "Doctor Visit -ஐ மாற்று (அ) உருவாக்கு",
+        "notFound": "No Doctor Visits found"
+      },
+      "created": "Doctor Visit புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Doctor Visit மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Doctor Visit நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Doctor Visit {{ id }}?"
+      },
+      "detail": {
+        "title": "Doctor Visit"
+      },
+      "id": "ID",
+      "description": "Description",
+      "status": "Status",
+      "visitDate": "Visit Date",
+      "visitTime": "Visit Time",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "prescription": "Prescription",
+      "doctorVisitType": "Doctor Visit Type",
+      "patient": "Patient",
+      "admissions": "Admissions"
+    }
+  }
+}

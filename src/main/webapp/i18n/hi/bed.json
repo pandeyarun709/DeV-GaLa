@@ -1,0 +1,35 @@
+{
+  "hospitalBeApp": {
+    "bed": {
+      "home": {
+        "title": "Beds",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Bed बनाएँ",
+        "createOrEditLabel": "Bed बनाएँ या संपादित करें",
+        "notFound": "No Beds found"
+      },
+      "created": "एक नया Bed [identifier: {{ param }}] तैयार है",
+      "updated": "एक Bed [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Bed [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Bed [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Bed"
+      },
+      "id": "ID",
+      "type": "Type",
+      "floor": "Floor",
+      "roomNo": "Room No",
+      "dailyRate": "Daily Rate",
+      "isInsuranceCovered": "Is Insurance Covered",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "hospital": "Hospital",
+      "admissions": "Admissions"
+    }
+  }
+}

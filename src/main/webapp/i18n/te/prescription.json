@@ -1,0 +1,40 @@
+{
+  "hospitalBeApp": {
+    "prescription": {
+      "home": {
+        "title": "Prescriptions",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "కొత్త Prescription  సృష్టించండి",
+        "createOrEditLabel": "Prescription సృష్టించండి లేదా సవరించండి",
+        "notFound": "No Prescriptions found"
+      },
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త Prescription సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త Prescription సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త Prescription తొలగించబడినది",
+      "delete": {
+        "question": "మీరు Prescription {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "Prescription"
+      },
+      "id": "ID",
+      "history": "History",
+      "compliant": "Compliant",
+      "height": "Height",
+      "weight": "Weight",
+      "bpHigh": "Bp High",
+      "bpLow": "Bp Low",
+      "temperature": "Temperature",
+      "otherVital": "Other Vital",
+      "description": "Description",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "medicineDose": "Medicine Dose",
+      "diagnosticTest": "Diagnostic Test",
+      "doctorVisitType": "Doctor Visit Type"
+    }
+  }
+}

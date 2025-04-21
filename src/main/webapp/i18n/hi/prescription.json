@@ -1,0 +1,40 @@
+{
+  "hospitalBeApp": {
+    "prescription": {
+      "home": {
+        "title": "Prescriptions",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Prescription बनाएँ",
+        "createOrEditLabel": "Prescription बनाएँ या संपादित करें",
+        "notFound": "No Prescriptions found"
+      },
+      "created": "एक नया Prescription [identifier: {{ param }}] तैयार है",
+      "updated": "एक Prescription [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Prescription [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Prescription [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Prescription"
+      },
+      "id": "ID",
+      "history": "History",
+      "compliant": "Compliant",
+      "height": "Height",
+      "weight": "Weight",
+      "bpHigh": "Bp High",
+      "bpLow": "Bp Low",
+      "temperature": "Temperature",
+      "otherVital": "Other Vital",
+      "description": "Description",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "medicineDose": "Medicine Dose",
+      "diagnosticTest": "Diagnostic Test",
+      "doctorVisitType": "Doctor Visit Type"
+    }
+  }
+}

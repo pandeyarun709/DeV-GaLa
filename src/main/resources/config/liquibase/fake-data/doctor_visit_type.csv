@@ -1,0 +1,11 @@
+id;type;fee;is_insurance_covered;is_active;created_by;created_on;updated_by;updated_on
+1;OT;13214.7;false;false;reluctantly vibraphone owlishly;2025-04-20T15:55:35;hollow;2025-04-20T18:29:41
+2;InpatientVisit;27164.44;false;true;solicit but legging;2025-04-20T12:39:20;creamy pull;2025-04-21T03:46:50
+3;InpatientVisit;17182.53;false;true;phew;2025-04-20T07:26:46;like sleepily thorn;2025-04-20T22:25:41
+4;OutpatientVisit;29312.28;true;false;unto that;2025-04-20T18:27:04;positively;2025-04-20T08:19:30
+5;OT;28103.79;true;true;um;2025-04-21T04:41:04;verbally unlined;2025-04-20T07:48:13
+6;OT;262.91;false;false;jovially;2025-04-20T14:40:29;minor outrank;2025-04-20T16:22:48
+7;Emergency;22390.59;false;true;athwart whoever;2025-04-20T19:40:43;punctually;2025-04-20T13:15:44
+8;OT;27382.41;false;true;breastplate paralyse whose;2025-04-20T11:57:50;cautious;2025-04-20T20:29:04
+9;DiagnosticTestProcedure;23621.43;false;false;quicker;2025-04-20T13:49:31;drat lazily;2025-04-21T05:24:07
+10;Emergency;11034.37;false;false;meanwhile nor atop;2025-04-20T07:35:56;nor;2025-04-20T11:04:16

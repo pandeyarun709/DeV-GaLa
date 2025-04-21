@@ -1,0 +1,39 @@
+{
+  "hospitalBeApp": {
+    "medicine": {
+      "home": {
+        "title": "Medicines",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Medicine बनाएँ",
+        "createOrEditLabel": "Medicine बनाएँ या संपादित करें",
+        "notFound": "No Medicines found"
+      },
+      "created": "एक नया Medicine [identifier: {{ param }}] तैयार है",
+      "updated": "एक Medicine [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Medicine [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Medicine [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Medicine"
+      },
+      "id": "ID",
+      "name": "Name",
+      "genericMolecule": "Generic Molecule",
+      "isPrescriptionNeeded": "Is Prescription Needed",
+      "description": "Description",
+      "mrp": "Mrp",
+      "isInsuranceCovered": "Is Insurance Covered",
+      "type": "Type",
+      "isConsumable": "Is Consumable",
+      "isReturnable": "Is Returnable",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "medicineDose": "Medicine Dose",
+      "medicineBatch": "Medicine Batch"
+    }
+  }
+}

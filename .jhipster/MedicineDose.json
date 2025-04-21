@@ -1,0 +1,51 @@
+{
+  "annotations": {
+    "changelogDate": "20250421065253"
+  },
+  "applications": ["HospitalBE"],
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "frequency",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "isActive",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "createdBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "updatedBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "updatedOn",
+      "fieldType": "Instant"
+    }
+  ],
+  "name": "MedicineDose",
+  "pagination": "infinite-scroll",
+  "relationships": [
+    {
+      "otherEntityName": "prescription",
+      "relationshipName": "prescription",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "medicine",
+      "relationshipName": "medicine",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

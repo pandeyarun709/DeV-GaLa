@@ -1,0 +1,39 @@
+{
+  "hospitalBeApp": {
+    "medicine": {
+      "home": {
+        "title": "Medicines",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Medicine",
+        "createOrEditLabel": "Create or edit a Medicine",
+        "notFound": "No Medicines found"
+      },
+      "created": "A new Medicine is created with identifier {{ param }}",
+      "updated": "A Medicine is updated with identifier {{ param }}",
+      "deleted": "A Medicine is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Medicine {{ id }}?"
+      },
+      "detail": {
+        "title": "Medicine"
+      },
+      "id": "ID",
+      "name": "Name",
+      "genericMolecule": "Generic Molecule",
+      "isPrescriptionNeeded": "Is Prescription Needed",
+      "description": "Description",
+      "mrp": "Mrp",
+      "isInsuranceCovered": "Is Insurance Covered",
+      "type": "Type",
+      "isConsumable": "Is Consumable",
+      "isReturnable": "Is Returnable",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "medicineDose": "Medicine Dose",
+      "medicineBatch": "Medicine Batch"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "hospitalBeApp": {
+    "MedicineType": {
+      "null": "",
+      "Tablet": "Tablet",
+      "Capsul": "Capsul",
+      "Liquid": "Liquid",
+      "DressingMaterial": "DressingMaterial",
+      "Instruments": "Instruments",
+      "Other": "Other"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "hospitalBeApp": {
+    "patient": {
+      "home": {
+        "title": "Patients",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नवीन Patient तयार करा",
+        "createOrEditLabel": "Patient तयार किंवा संपादित करा",
+        "notFound": "No Patients found"
+      },
+      "created": "Patient [identifier: {{ param }}] तयार आहे",
+      "updated": "Patient [identifier: {{ param }}] सुधारित केले आहे",
+      "deleted": "Patient [identifier: {{ param }}] हटविले आहे",
+      "delete": {
+        "question": "Patient [id: {{ id }}] काढून टाकण्याबाबत पुष्टी?"
+      },
+      "detail": {
+        "title": "Patient"
+      },
+      "id": "ID",
+      "registrationId": "Registration Id",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "sex": "Sex",
+      "dateOfBirth": "Date Of Birth",
+      "bloodGroup": "Blood Group",
+      "emergencyContactName": "Emergency Contact Name",
+      "emergencyContactPhone": "Emergency Contact Phone",
+      "emergencyContactEmail": "Emergency Contact Email",
+      "emergencyContactRelationShip": "Emergency Contact Relation Ship",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "address": "Address",
+      "diagnosticTestReport": "Diagnostic Test Report",
+      "doctorVisit": "Doctor Visit",
+      "admission": "Admission"
+    }
+  }
+}

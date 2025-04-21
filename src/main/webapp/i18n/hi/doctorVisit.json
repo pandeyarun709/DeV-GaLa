@@ -1,0 +1,36 @@
+{
+  "hospitalBeApp": {
+    "doctorVisit": {
+      "home": {
+        "title": "DoctorVisits",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Doctor Visit बनाएँ",
+        "createOrEditLabel": "Doctor Visit बनाएँ या संपादित करें",
+        "notFound": "No Doctor Visits found"
+      },
+      "created": "एक नया Doctor Visit [identifier: {{ param }}] तैयार है",
+      "updated": "एक Doctor Visit [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Doctor Visit [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Doctor Visit [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Doctor Visit"
+      },
+      "id": "ID",
+      "description": "Description",
+      "status": "Status",
+      "visitDate": "Visit Date",
+      "visitTime": "Visit Time",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "prescription": "Prescription",
+      "doctorVisitType": "Doctor Visit Type",
+      "patient": "Patient",
+      "admissions": "Admissions"
+    }
+  }
+}

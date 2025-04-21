@@ -1,0 +1,36 @@
+{
+  "hospitalBeApp": {
+    "doctorVisit": {
+      "home": {
+        "title": "Doctor Visits",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "కొత్త Doctor Visit  సృష్టించండి",
+        "createOrEditLabel": "Doctor Visit సృష్టించండి లేదా సవరించండి",
+        "notFound": "No Doctor Visits found"
+      },
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త Doctor Visit సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త Doctor Visit సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త Doctor Visit తొలగించబడినది",
+      "delete": {
+        "question": "మీరు Doctor Visit {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "Doctor Visit"
+      },
+      "id": "ID",
+      "description": "Description",
+      "status": "Status",
+      "visitDate": "Visit Date",
+      "visitTime": "Visit Time",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "prescription": "Prescription",
+      "doctorVisitType": "Doctor Visit Type",
+      "patient": "Patient",
+      "admissions": "Admissions"
+    }
+  }
+}

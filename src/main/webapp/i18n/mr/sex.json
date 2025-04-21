@@ -1,0 +1,9 @@
+{
+  "hospitalBeApp": {
+    "Sex": {
+      "null": "",
+      "Male": "Male",
+      "Female": "Female"
+    }
+  }
+}

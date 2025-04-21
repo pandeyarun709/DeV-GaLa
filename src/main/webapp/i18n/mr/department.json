@@ -1,0 +1,33 @@
+{
+  "hospitalBeApp": {
+    "department": {
+      "home": {
+        "title": "Departments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नवीन Department तयार करा",
+        "createOrEditLabel": "Department तयार किंवा संपादित करा",
+        "notFound": "No Departments found"
+      },
+      "created": "Department [identifier: {{ param }}] तयार आहे",
+      "updated": "Department [identifier: {{ param }}] सुधारित केले आहे",
+      "deleted": "Department [identifier: {{ param }}] हटविले आहे",
+      "delete": {
+        "question": "Department [id: {{ id }}] काढून टाकण्याबाबत पुष्टी?"
+      },
+      "detail": {
+        "title": "Department"
+      },
+      "id": "ID",
+      "name": "Name",
+      "phone": "Phone",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "employee": "Employee",
+      "diagnosticTest": "Diagnostic Test",
+      "hospital": "Hospital"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "hospitalBeApp": {
+    "slot": {
+      "home": {
+        "title": "Slots",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Slot",
+        "createOrEditLabel": "Create or edit a Slot",
+        "notFound": "No Slots found"
+      },
+      "created": "A new Slot is created with identifier {{ param }}",
+      "updated": "A Slot is updated with identifier {{ param }}",
+      "deleted": "A Slot is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Slot {{ id }}?"
+      },
+      "detail": {
+        "title": "Slot"
+      },
+      "id": "ID",
+      "day": "Day",
+      "startTimeHour": "Start Time Hour",
+      "startTimeMin": "Start Time Min",
+      "endTimeHour": "End Time Hour",
+      "endTimeMin": "End Time Min",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "doctorVisitType": "Doctor Visit Type",
+      "test": "Test"
+    }
+  }
+}

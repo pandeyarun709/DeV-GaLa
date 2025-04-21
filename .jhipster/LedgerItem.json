@@ -1,0 +1,57 @@
+{
+  "annotations": {
+    "changelogDate": "20250421065753"
+  },
+  "applications": ["HospitalBE"],
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "time",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fee",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "isCoveredByInsurance",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "isActive",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "createdBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "updatedBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "updatedOn",
+      "fieldType": "Instant"
+    }
+  ],
+  "name": "LedgerItem",
+  "pagination": "infinite-scroll",
+  "relationships": [
+    {
+      "otherEntityName": "admission",
+      "relationshipName": "admission",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

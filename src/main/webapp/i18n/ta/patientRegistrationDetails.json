@@ -1,0 +1,27 @@
+{
+  "hospitalBeApp": {
+    "patientRegistrationDetails": {
+      "home": {
+        "title": "Patient Registration Details",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Patient Registration Details-ஐ உருவாக்கு",
+        "createOrEditLabel": "Patient Registration Details -ஐ மாற்று (அ) உருவாக்கு",
+        "notFound": "No Patient Registration Details found"
+      },
+      "created": "Patient Registration Details புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Patient Registration Details மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Patient Registration Details நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Patient Registration Details {{ id }}?"
+      },
+      "detail": {
+        "title": "Patient Registration Details"
+      },
+      "id": "ID",
+      "registrationId": "Registration Id",
+      "client": "Client",
+      "hospital": "Hospital",
+      "referredBy": "Referred By"
+    }
+  }
+}

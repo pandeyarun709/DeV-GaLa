@@ -1,0 +1,12 @@
+{
+  "hospitalBeApp": {
+    "AdmissionStatus": {
+      "null": "",
+      "Accidental": "Accidental",
+      "PoliceVerificationNeeded": "PoliceVerificationNeeded",
+      "EmergencyAdmission": "EmergencyAdmission",
+      "PlannedAdmission": "PlannedAdmission",
+      "Other": "Other"
+    }
+  }
+}

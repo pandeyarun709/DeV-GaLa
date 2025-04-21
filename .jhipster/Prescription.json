@@ -1,0 +1,92 @@
+{
+  "annotations": {
+    "changelogDate": "20250421065153"
+  },
+  "applications": ["HospitalBE"],
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "history",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "compliant",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "height",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "weight",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "bpHigh",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "bpLow",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "temperature",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "otherVital",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "isActive",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "createdBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "updatedBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "updatedOn",
+      "fieldType": "Instant"
+    }
+  ],
+  "name": "Prescription",
+  "pagination": "infinite-scroll",
+  "relationships": [
+    {
+      "otherEntityName": "medicineDose",
+      "otherEntityRelationshipName": "prescription",
+      "relationshipName": "medicineDose",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "diagnosticTest",
+      "otherEntityRelationshipName": "prescription",
+      "relationshipName": "diagnosticTest",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "doctorVisit",
+      "otherEntityRelationshipName": "prescription",
+      "relationshipName": "doctorVisitType",
+      "relationshipSide": "right",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

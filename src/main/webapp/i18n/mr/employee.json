@@ -1,0 +1,39 @@
+{
+  "hospitalBeApp": {
+    "employee": {
+      "home": {
+        "title": "Employees",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नवीन Employee तयार करा",
+        "createOrEditLabel": "Employee तयार किंवा संपादित करा",
+        "notFound": "No Employees found"
+      },
+      "created": "Employee [identifier: {{ param }}] तयार आहे",
+      "updated": "Employee [identifier: {{ param }}] सुधारित केले आहे",
+      "deleted": "Employee [identifier: {{ param }}] हटविले आहे",
+      "delete": {
+        "question": "Employee [id: {{ id }}] काढून टाकण्याबाबत पुष्टी?"
+      },
+      "detail": {
+        "title": "Employee"
+      },
+      "id": "ID",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "registrationNo": "Registration No",
+      "rmoHourlyRate": "Rmo Hourly Rate",
+      "type": "Type",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "doctorVisitType": "Doctor Visit Type",
+      "admission": "Admission",
+      "qualifications": "Qualifications",
+      "department": "Department",
+      "test": "Test"
+    }
+  }
+}

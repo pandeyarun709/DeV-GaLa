@@ -1,0 +1,86 @@
+{
+  "annotations": {
+    "changelogDate": "20250421065453"
+  },
+  "applications": ["HospitalBE"],
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "genericMolecule",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "isPrescriptionNeeded",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "mrp",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "isInsuranceCovered",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "type",
+      "fieldType": "MedicineType",
+      "fieldValues": "Tablet,Capsul,Liquid,DressingMaterial,Instruments,Other"
+    },
+    {
+      "fieldName": "isConsumable",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "isReturnable",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "isActive",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "createdBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "updatedBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "updatedOn",
+      "fieldType": "Instant"
+    }
+  ],
+  "name": "Medicine",
+  "pagination": "infinite-scroll",
+  "relationships": [
+    {
+      "otherEntityName": "medicineDose",
+      "otherEntityRelationshipName": "medicine",
+      "relationshipName": "medicineDose",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "medicineBatch",
+      "otherEntityRelationshipName": "med",
+      "relationshipName": "medicineBatch",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

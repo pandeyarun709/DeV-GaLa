@@ -1,0 +1,123 @@
+{
+  "annotations": {
+    "changelogDate": "20250421065653"
+  },
+  "applications": ["HospitalBE"],
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "details",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "admissionStatus",
+      "fieldType": "AdmissionStatus",
+      "fieldValues": "Accidental,PoliceVerificationNeeded,EmergencyAdmission,PlannedAdmission,Other"
+    },
+    {
+      "fieldName": "dischargeStatus",
+      "fieldType": "DischargeStatus",
+      "fieldValues": "NotDischarged,Expired,DiscragedOnOwnRisk,NormalDischarge,TransferToOtherHospital,Other"
+    },
+    {
+      "fieldName": "admissionTime",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "dischargeTime",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "paymentStatus",
+      "fieldType": "PaymentStatus",
+      "fieldValues": "Paid,Pending,PartiallyPaid,PendingFromInsurance"
+    },
+    {
+      "fieldName": "totalBillAmount",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "insuranceCoveredAmount",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "isActive",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "createdBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "updatedBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "updatedOn",
+      "fieldType": "Instant"
+    }
+  ],
+  "name": "Admission",
+  "pagination": "infinite-scroll",
+  "relationships": [
+    {
+      "otherEntityName": "medicineBatch",
+      "otherEntityRelationshipName": "admissions",
+      "relationshipName": "medicineBatch",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "diagnosticTestReport",
+      "otherEntityRelationshipName": "admissions",
+      "relationshipName": "diagnosticTestReport",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "doctorVisit",
+      "otherEntityRelationshipName": "admissions",
+      "relationshipName": "doctorVisit",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "ledgerItem",
+      "otherEntityRelationshipName": "admission",
+      "relationshipName": "ledgerItem",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "bed",
+      "otherEntityRelationshipName": "admissions",
+      "relationshipName": "beds",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-many"
+    },
+    {
+      "otherEntityName": "patient",
+      "relationshipName": "patient",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "hospital",
+      "relationshipName": "hospital",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "employee",
+      "relationshipName": "admittedUnder",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

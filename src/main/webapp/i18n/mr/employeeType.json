@@ -1,0 +1,12 @@
+{
+  "hospitalBeApp": {
+    "EmployeeType": {
+      "null": "",
+      "Doctor": "Doctor",
+      "Nurse": "Nurse",
+      "RMO": "RMO",
+      "Receptionst": "Receptionst",
+      "Technician": "Technician"
+    }
+  }
+}

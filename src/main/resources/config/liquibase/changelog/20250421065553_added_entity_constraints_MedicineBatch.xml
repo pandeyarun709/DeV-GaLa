@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+    <!--
+        Added the constraints for entity MedicineBatch.
+    -->
+    <changeSet id="20250421065553-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="med_id"
+                                 baseTableName="medicine_batch"
+                                 constraintName="fk_medicine_batch__med_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="medicine"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="hospital_id"
+                                 baseTableName="medicine_batch"
+                                 constraintName="fk_medicine_batch__hospital_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="hospital"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="admissions_id"
+                                 baseTableName="medicine_batch"
+                                 constraintName="fk_medicine_batch__admissions_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="admission"
+                                 />
+    </changeSet>
+</databaseChangeLog>

@@ -1,0 +1,37 @@
+{
+  "annotations": {
+    "changelogDate": "20250421064153"
+  },
+  "applications": ["HospitalBE"],
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "registrationId",
+      "fieldType": "String"
+    }
+  ],
+  "name": "PatientRegistrationDetails",
+  "pagination": "infinite-scroll",
+  "relationships": [
+    {
+      "otherEntityName": "client",
+      "relationshipName": "client",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "hospital",
+      "relationshipName": "hospital",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "referralDoctor",
+      "relationshipName": "referredBy",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

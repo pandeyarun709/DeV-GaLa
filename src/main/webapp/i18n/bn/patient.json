@@ -1,0 +1,43 @@
+{
+  "hospitalBeApp": {
+    "patient": {
+      "home": {
+        "title": "Patients",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Patient",
+        "createOrEditLabel": "Create or edit a Patient",
+        "notFound": "No Patients found"
+      },
+      "created": "A new Patient is created with identifier {{ param }}",
+      "updated": "A Patient is updated with identifier {{ param }}",
+      "deleted": "A Patient is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Patient {{ id }}?"
+      },
+      "detail": {
+        "title": "Patient"
+      },
+      "id": "ID",
+      "registrationId": "Registration Id",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "sex": "Sex",
+      "dateOfBirth": "Date Of Birth",
+      "bloodGroup": "Blood Group",
+      "emergencyContactName": "Emergency Contact Name",
+      "emergencyContactPhone": "Emergency Contact Phone",
+      "emergencyContactEmail": "Emergency Contact Email",
+      "emergencyContactRelationShip": "Emergency Contact Relation Ship",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "address": "Address",
+      "diagnosticTestReport": "Diagnostic Test Report",
+      "doctorVisit": "Doctor Visit",
+      "admission": "Admission"
+    }
+  }
+}

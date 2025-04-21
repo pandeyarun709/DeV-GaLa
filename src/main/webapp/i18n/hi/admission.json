@@ -1,0 +1,44 @@
+{
+  "hospitalBeApp": {
+    "admission": {
+      "home": {
+        "title": "Admissions",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Admission बनाएँ",
+        "createOrEditLabel": "Admission बनाएँ या संपादित करें",
+        "notFound": "No Admissions found"
+      },
+      "created": "एक नया Admission [identifier: {{ param }}] तैयार है",
+      "updated": "एक Admission [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Admission [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Admission [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Admission"
+      },
+      "id": "ID",
+      "details": "Details",
+      "admissionStatus": "Admission Status",
+      "dischargeStatus": "Discharge Status",
+      "admissionTime": "Admission Time",
+      "dischargeTime": "Discharge Time",
+      "paymentStatus": "Payment Status",
+      "totalBillAmount": "Total Bill Amount",
+      "insuranceCoveredAmount": "Insurance Covered Amount",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "medicineBatch": "Medicine Batch",
+      "diagnosticTestReport": "Diagnostic Test Report",
+      "doctorVisit": "Doctor Visit",
+      "ledgerItem": "Ledger Item",
+      "beds": "Beds",
+      "patient": "Patient",
+      "hospital": "Hospital",
+      "admittedUnder": "Admitted Under"
+    }
+  }
+}

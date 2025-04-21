@@ -1,0 +1,37 @@
+{
+  "hospitalBeApp": {
+    "hospital": {
+      "home": {
+        "title": "Hospitals",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Hospital बनाएँ",
+        "createOrEditLabel": "Hospital बनाएँ या संपादित करें",
+        "notFound": "No Hospitals found"
+      },
+      "created": "एक नया Hospital [identifier: {{ param }}] तैयार है",
+      "updated": "एक Hospital [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Hospital [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Hospital [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Hospital"
+      },
+      "id": "ID",
+      "name": "Name",
+      "logoPath": "Logo Path",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "address": "Address",
+      "patientRegistrationDetails": "Patient Registration Details",
+      "department": "Department",
+      "bed": "Bed",
+      "medicineBatch": "Medicine Batch",
+      "admission": "Admission",
+      "client": "Client"
+    }
+  }
+}

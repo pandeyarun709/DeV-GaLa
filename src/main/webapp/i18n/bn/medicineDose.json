@@ -1,0 +1,31 @@
+{
+  "hospitalBeApp": {
+    "medicineDose": {
+      "home": {
+        "title": "Medicine Doses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Medicine Dose",
+        "createOrEditLabel": "Create or edit a Medicine Dose",
+        "notFound": "No Medicine Doses found"
+      },
+      "created": "A new Medicine Dose is created with identifier {{ param }}",
+      "updated": "A Medicine Dose is updated with identifier {{ param }}",
+      "deleted": "A Medicine Dose is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Medicine Dose {{ id }}?"
+      },
+      "detail": {
+        "title": "Medicine Dose"
+      },
+      "id": "ID",
+      "frequency": "Frequency",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "prescription": "Prescription",
+      "medicine": "Medicine"
+    }
+  }
+}

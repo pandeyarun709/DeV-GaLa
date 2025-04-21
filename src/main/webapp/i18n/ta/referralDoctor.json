@@ -1,0 +1,33 @@
+{
+  "hospitalBeApp": {
+    "referralDoctor": {
+      "home": {
+        "title": "Referral Doctors",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Referral Doctor-ஐ உருவாக்கு",
+        "createOrEditLabel": "Referral Doctor -ஐ மாற்று (அ) உருவாக்கு",
+        "notFound": "No Referral Doctors found"
+      },
+      "created": "Referral Doctor புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Referral Doctor மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Referral Doctor நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Referral Doctor {{ id }}?"
+      },
+      "detail": {
+        "title": "Referral Doctor"
+      },
+      "id": "ID",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "registrationNo": "Registration No",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "patientRegistrationDetails": "Patient Registration Details"
+    }
+  }
+}

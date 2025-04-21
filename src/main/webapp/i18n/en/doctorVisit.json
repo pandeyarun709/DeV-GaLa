@@ -1,0 +1,36 @@
+{
+  "hospitalBeApp": {
+    "doctorVisit": {
+      "home": {
+        "title": "Doctor Visits",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Doctor Visit",
+        "createOrEditLabel": "Create or edit a Doctor Visit",
+        "notFound": "No Doctor Visits found"
+      },
+      "created": "A new Doctor Visit is created with identifier {{ param }}",
+      "updated": "A Doctor Visit is updated with identifier {{ param }}",
+      "deleted": "A Doctor Visit is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Doctor Visit {{ id }}?"
+      },
+      "detail": {
+        "title": "Doctor Visit"
+      },
+      "id": "ID",
+      "description": "Description",
+      "status": "Status",
+      "visitDate": "Visit Date",
+      "visitTime": "Visit Time",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "prescription": "Prescription",
+      "doctorVisitType": "Doctor Visit Type",
+      "patient": "Patient",
+      "admissions": "Admissions"
+    }
+  }
+}

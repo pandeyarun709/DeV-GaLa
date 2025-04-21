@@ -1,0 +1,39 @@
+{
+  "hospitalBeApp": {
+    "medicine": {
+      "home": {
+        "title": "Medicines",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Medicine-ஐ உருவாக்கு",
+        "createOrEditLabel": "Medicine -ஐ மாற்று (அ) உருவாக்கு",
+        "notFound": "No Medicines found"
+      },
+      "created": "Medicine புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Medicine மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Medicine நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Medicine {{ id }}?"
+      },
+      "detail": {
+        "title": "Medicine"
+      },
+      "id": "ID",
+      "name": "Name",
+      "genericMolecule": "Generic Molecule",
+      "isPrescriptionNeeded": "Is Prescription Needed",
+      "description": "Description",
+      "mrp": "Mrp",
+      "isInsuranceCovered": "Is Insurance Covered",
+      "type": "Type",
+      "isConsumable": "Is Consumable",
+      "isReturnable": "Is Returnable",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "medicineDose": "Medicine Dose",
+      "medicineBatch": "Medicine Batch"
+    }
+  }
+}

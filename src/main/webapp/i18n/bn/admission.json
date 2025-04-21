@@ -1,0 +1,44 @@
+{
+  "hospitalBeApp": {
+    "admission": {
+      "home": {
+        "title": "Admissions",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Admission",
+        "createOrEditLabel": "Create or edit a Admission",
+        "notFound": "No Admissions found"
+      },
+      "created": "A new Admission is created with identifier {{ param }}",
+      "updated": "A Admission is updated with identifier {{ param }}",
+      "deleted": "A Admission is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Admission {{ id }}?"
+      },
+      "detail": {
+        "title": "Admission"
+      },
+      "id": "ID",
+      "details": "Details",
+      "admissionStatus": "Admission Status",
+      "dischargeStatus": "Discharge Status",
+      "admissionTime": "Admission Time",
+      "dischargeTime": "Discharge Time",
+      "paymentStatus": "Payment Status",
+      "totalBillAmount": "Total Bill Amount",
+      "insuranceCoveredAmount": "Insurance Covered Amount",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "medicineBatch": "Medicine Batch",
+      "diagnosticTestReport": "Diagnostic Test Report",
+      "doctorVisit": "Doctor Visit",
+      "ledgerItem": "Ledger Item",
+      "beds": "Beds",
+      "patient": "Patient",
+      "hospital": "Hospital",
+      "admittedUnder": "Admitted Under"
+    }
+  }
+}

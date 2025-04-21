@@ -1,0 +1,38 @@
+{
+  "hospitalBeApp": {
+    "diagnosticTest": {
+      "home": {
+        "title": "Diagnostic Tests",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Diagnostic Test-ஐ உருவாக்கு",
+        "createOrEditLabel": "Diagnostic Test -ஐ மாற்று (அ) உருவாக்கு",
+        "notFound": "No Diagnostic Tests found"
+      },
+      "created": "Diagnostic Test புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Diagnostic Test மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Diagnostic Test நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Diagnostic Test {{ id }}?"
+      },
+      "detail": {
+        "title": "Diagnostic Test"
+      },
+      "id": "ID",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "fee": "Fee",
+      "isInsuranceCovered": "Is Insurance Covered",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "employee": "Employee",
+      "diagnosticTestReport": "Diagnostic Test Report",
+      "slot": "Slot",
+      "department": "Department",
+      "prescription": "Prescription"
+    }
+  }
+}

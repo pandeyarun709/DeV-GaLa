@@ -1,0 +1,33 @@
+{
+  "hospitalBeApp": {
+    "diagnosticTestReport": {
+      "home": {
+        "title": "Diagnostic Test Reports",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Diagnostic Test Report-ஐ உருவாக்கு",
+        "createOrEditLabel": "Diagnostic Test Report -ஐ மாற்று (அ) உருவாக்கு",
+        "notFound": "No Diagnostic Test Reports found"
+      },
+      "created": "Diagnostic Test Report புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Diagnostic Test Report மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Diagnostic Test Report நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Diagnostic Test Report {{ id }}?"
+      },
+      "detail": {
+        "title": "Diagnostic Test Report"
+      },
+      "id": "ID",
+      "description": "Description",
+      "signedBy": "Signed By",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "patient": "Patient",
+      "test": "Test",
+      "admissions": "Admissions"
+    }
+  }
+}

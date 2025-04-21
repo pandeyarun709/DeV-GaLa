@@ -1,0 +1,33 @@
+{
+  "hospitalBeApp": {
+    "ledgerItem": {
+      "home": {
+        "title": "Ledger Items",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Ledger Item-ஐ உருவாக்கு",
+        "createOrEditLabel": "Ledger Item -ஐ மாற்று (அ) உருவாக்கு",
+        "notFound": "No Ledger Items found"
+      },
+      "created": "Ledger Item புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Ledger Item மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Ledger Item நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Ledger Item {{ id }}?"
+      },
+      "detail": {
+        "title": "Ledger Item"
+      },
+      "id": "ID",
+      "time": "Time",
+      "description": "Description",
+      "fee": "Fee",
+      "isCoveredByInsurance": "Is Covered By Insurance",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "admission": "Admission"
+    }
+  }
+}

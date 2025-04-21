@@ -1,0 +1,37 @@
+{
+  "hospitalBeApp": {
+    "address": {
+      "home": {
+        "title": "Addresses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "కొత్త Address  సృష్టించండి",
+        "createOrEditLabel": "Address సృష్టించండి లేదా సవరించండి",
+        "notFound": "No Addresses found"
+      },
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త Address సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త Address సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త Address తొలగించబడినది",
+      "delete": {
+        "question": "మీరు Address {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "Address"
+      },
+      "id": "ID",
+      "line1": "Line 1",
+      "line2": "Line 2",
+      "city": "City",
+      "state": "State",
+      "pincode": "Pincode",
+      "lat": "Lat",
+      "lon": "Lon",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "hospital": "Hospital",
+      "patient": "Patient"
+    }
+  }
+}

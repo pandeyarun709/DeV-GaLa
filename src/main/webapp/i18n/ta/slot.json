@@ -1,0 +1,35 @@
+{
+  "hospitalBeApp": {
+    "slot": {
+      "home": {
+        "title": "Slots",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Slot-ஐ உருவாக்கு",
+        "createOrEditLabel": "Slot -ஐ மாற்று (அ) உருவாக்கு",
+        "notFound": "No Slots found"
+      },
+      "created": "Slot புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Slot மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Slot நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Slot {{ id }}?"
+      },
+      "detail": {
+        "title": "Slot"
+      },
+      "id": "ID",
+      "day": "Day",
+      "startTimeHour": "Start Time Hour",
+      "startTimeMin": "Start Time Min",
+      "endTimeHour": "End Time Hour",
+      "endTimeMin": "End Time Min",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "doctorVisitType": "Doctor Visit Type",
+      "test": "Test"
+    }
+  }
+}

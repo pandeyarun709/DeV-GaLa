@@ -1,0 +1,39 @@
+{
+  "hospitalBeApp": {
+    "employee": {
+      "home": {
+        "title": "Employees",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Employee-ஐ உருவாக்கு",
+        "createOrEditLabel": "Employee -ஐ மாற்று (அ) உருவாக்கு",
+        "notFound": "No Employees found"
+      },
+      "created": "Employee புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Employee மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Employee நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Employee {{ id }}?"
+      },
+      "detail": {
+        "title": "Employee"
+      },
+      "id": "ID",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "registrationNo": "Registration No",
+      "rmoHourlyRate": "Rmo Hourly Rate",
+      "type": "Type",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "doctorVisitType": "Doctor Visit Type",
+      "admission": "Admission",
+      "qualifications": "Qualifications",
+      "department": "Department",
+      "test": "Test"
+    }
+  }
+}
