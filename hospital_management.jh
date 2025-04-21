@@ -1,0 +1,524 @@
+entity Client {
+	name String,
+    phone Long,
+    email String,
+    isActive Boolean,
+    createdBy String,
+    createdOn Instant,
+    updatedBy String,
+    updatedOn Instant
+}
+
+entity Hospital {
+	name String,
+    logoPath String,
+    isActive Boolean,
+    createdBy String,
+    createdOn Instant,
+    updatedBy String,
+    updatedOn Instant
+}
+
+relationship OneToMany {
+	Client to Hospital{client}
+}
+
+entity Address {
+	line1 String,
+    line2 String,
+    city String,
+    state String,
+    pincode Long,
+    lat Double,
+    lon Double,
+    isActive Boolean,
+    createdBy String,
+    createdOn Instant,
+    updatedBy String,
+    updatedOn Instant
+}
+
+relationship OneToOne {
+	Hospital to Address
+}
+
+entity Patient {
+	registrationId String,
+    name String,
+    phone Long,
+    email String,
+    sex Sex,
+    dateOfBirth LocalDate,
+    bloodGroup BloodGroup,
+    emergencyContactName String,
+    emergencyContactPhone Long,
+    emergencyContactEmail String,
+    emergencyContactRelationShip Relationship,
+    isActive Boolean,
+    createdBy String,
+    createdOn Instant,
+    updatedBy String,
+    updatedOn Instant
+}
+
+enum Sex {
+	Male,
+    Female
+}
+
+relationship OneToOne {
+	Patient to Address
+}
+
+enum BloodGroup {
+	AP,
+    AN,
+    BP,
+    BN,
+    ABP,
+    ABN,
+    OP,
+    ON
+}
+
+enum Relationship {
+	Spouse,
+    Parent,
+    Son,
+    Daugher,
+    GrandSon,
+    GrandDaughter,
+    GrandParent
+    Friend,
+    Relative,
+    Other
+}
+
+entity PatientRegistrationDetails {
+	registrationId String
+}
+
+
+relationship OneToMany {
+	Client to PatientRegistrationDetails{client}
+}
+
+relationship OneToMany {
+	Hospital to PatientRegistrationDetails{hospital}
+}
+
+entity ReferralDoctor {
+	name String,
+    phone Long,
+    email String,
+    registrationNo String,
+    isActive Boolean,
+    createdBy String,
+    createdOn Instant,
+    updatedBy String,
+    updatedOn Instant
+}
+
+relationship OneToMany {
+	ReferralDoctor to PatientRegistrationDetails{referredBy}
+}
+
+
+entity Department {
+	name String,
+    phone Long,
+    isActive Boolean,
+    createdBy String,
+    createdOn Instant,
+    updatedBy String,
+    updatedOn Instant
+}
+
+relationship OneToMany {
+	Hospital to Department{hospital}
+}
+
+entity Employee {
+	name String,
+    phone Long,
+    email String,
+    registrationNo String,
+    rmoHourlyRate Double,
+    type EmployeeType,
+    isActive Boolean,
+    createdBy String,
+    createdOn Instant,
+    updatedBy String,
+    updatedOn Instant
+}
+
+
+enum EmployeeType {
+	Doctor,
+    Nurse,
+    RMO,
+    Receptionst,
+    Technician
+}
+
+relationship OneToMany {
+	Department to Employee{department}
+}
+
+entity Qualification {
+	name String,
+    isActive Boolean,
+    createdBy String,
+    createdOn Instant,
+    updatedBy String,
+    updatedOn Instant
+}
+
+relationship ManyToMany {
+	Employee{qualifications} to Qualification{employees}
+}
+
+entity DiagnosticTest {
+	name String,
+    phone Long,
+    email String,
+    fee Double,
+    isInsuranceCovered Boolean,
+    isActive Boolean,
+    createdBy String,
+    createdOn Instant,
+    updatedBy String,
+    updatedOn Instant
+}
+
+relationship OneToMany {
+	Department to DiagnosticTest{department}
+}
+
+relationship OneToMany {
+	DiagnosticTest to Employee{test}
+}
+
+entity DiagnosticTestReport {
+	description String,
+    signedBy String,
+    isActive Boolean,
+    createdBy String,
+    createdOn Instant,
+    updatedBy String,
+    updatedOn Instant
+}
+
+relationship OneToMany {
+	Patient to DiagnosticTestReport{patient}
+}
+
+relationship OneToMany {
+	DiagnosticTest to DiagnosticTestReport{test}
+}
+
+entity DoctorVisitType {
+	type VisitType,
+    fee Double,
+    isInsuranceCovered Boolean,
+    isActive Boolean,
+    createdBy String,
+    createdOn Instant,
+    updatedBy String,
+    updatedOn Instant
+}
+
+enum VisitType {
+	InpatientVisit,
+    OutpatientVisit,
+    OT,
+    DiagnosticTestProcedure,
+    Dialysis,
+    Emergency,
+    Other
+}
+
+relationship OneToMany {
+	Employee to DoctorVisitType{doctor}
+}
+
+entity Slot {
+	day Day,
+	startTimeHour Long,
+    startTimeMin Long,
+    endTimeHour Long,
+    endTimeMin Long,
+    isActive Boolean,
+    createdBy String,
+    createdOn Instant,
+    updatedBy String,
+    updatedOn Instant
+}
+
+enum Day {
+	Mon,
+    Tue,
+    Wed,
+    Thu,
+    Fri,
+    Sat,
+    Sun
+}
+
+relationship OneToMany {
+	DoctorVisitType to Slot{doctorVisitType}
+}
+
+relationship OneToMany {
+	DiagnosticTest to Slot{test}
+}
+
+entity DoctorVisit {
+	description String,
+    status VisitStatus,
+    visitDate LocalDate,
+    visitTime Instant,
+    isActive Boolean,
+    createdBy String,
+    createdOn Instant,
+    updatedBy String,
+    updatedOn Instant
+}
+
+enum VisitStatus {
+	Planned,
+    Visited
+}
+
+relationship OneToMany {
+	DoctorVisitType to DoctorVisit{doctorVisitType}
+}
+
+relationship OneToMany {
+	Patient to DoctorVisit{patient}
+}
+
+entity Prescription {
+	history String,
+    compliant String,
+    height Double,
+    weight Double,
+    bpHigh Double,
+    bpLow Double,
+    temperature Double,
+    otherVital String,
+	description String,
+    isActive Boolean,
+    createdBy String,
+    createdOn Instant,
+    updatedBy String,
+    updatedOn Instant
+}
+
+relationship OneToOne {
+	DoctorVisit{prescription} to Prescription{doctorVisitType}
+}
+
+relationship OneToMany {
+	Prescription to MedicineDose{prescription}
+}
+
+relationship OneToMany {
+	Prescription to DiagnosticTest{prescription}
+}
+
+entity MedicineDose {
+	frequency String,
+    isActive Boolean,
+    createdBy String,
+    createdOn Instant,
+    updatedBy String,
+    updatedOn Instant
+}
+
+relationship OneToMany {
+	Medicine to MedicineDose{medicine}
+}
+
+entity Bed {
+	type BedType,
+    floor Long,
+    roomNo Long,
+    dailyRate Double,
+    isInsuranceCovered Boolean,
+    isActive Boolean,
+    createdBy String,
+    createdOn Instant,
+    updatedBy String,
+    updatedOn Instant
+}
+
+enum BedType {
+	ICU,
+    Supirior,
+    Normal,
+    DoubleRoom,
+    GeneralBed,
+    Emergency,
+    Other
+}
+
+relationship OneToMany {
+	Hospital to Bed{hospital}
+}
+
+entity Medicine {
+	name String,
+    genericMolecule String,
+    isPrescriptionNeeded Boolean,
+    description String,
+    mrp Double,
+    isInsuranceCovered Boolean,
+    type MedicineType,
+    isConsumable Boolean,
+    isReturnable Boolean,
+    isActive Boolean,
+    createdBy String,
+    createdOn Instant,
+    updatedBy String,
+    updatedOn Instant
+}
+
+enum MedicineType {
+	Tablet,
+    Capsul,
+    Liquid,
+    DressingMaterial,
+    Instruments,
+    Other
+}
+
+entity MedicineBatch {
+	batchNo String,
+    expiryDate LocalDate,
+    quantity Long,
+    sellingPrice Double,
+    storageLocation String,
+    rackNo String,
+    isActive Boolean,
+    createdBy String,
+    createdOn Instant,
+    updatedBy String,
+    updatedOn Instant
+}
+
+relationship OneToMany {
+	Medicine to MedicineBatch{med}
+}
+
+relationship OneToMany {
+	Hospital to MedicineBatch{hospital}
+}
+
+entity Admission {
+	details String,
+    admissionStatus AdmissionStatus,
+    dischargeStatus DischargeStatus,
+    admissionTime Instant,
+    dischargeTime Instant,
+    paymentStatus PaymentStatus,
+    totalBillAmount Double,
+    insuranceCoveredAmount Double,
+    isActive Boolean,
+    createdBy String,
+    createdOn Instant,
+    updatedBy String,
+    updatedOn Instant
+}
+
+enum AdmissionStatus {
+	Accidental,
+    PoliceVerificationNeeded,
+    EmergencyAdmission,
+    PlannedAdmission,
+    Other
+}
+
+enum DischargeStatus {
+	NotDischarged,
+    Expired,
+    DiscragedOnOwnRisk,
+    NormalDischarge,
+    TransferToOtherHospital,
+    Other
+}
+
+enum PaymentStatus {
+	Paid,
+    Pending,
+    PartiallyPaid,
+    PendingFromInsurance
+}
+
+relationship OneToMany {
+	Patient to Admission{patient}
+}
+
+relationship OneToMany {
+	Hospital to Admission{hospital}
+}
+
+relationship OneToMany {
+	Employee to Admission{admittedUnder}
+}
+
+relationship ManyToMany {
+	Admission{beds} to Bed{admissions}
+}
+
+relationship OneToMany {
+	Admission to MedicineBatch{admissions}
+}
+
+relationship OneToMany {
+	Admission to DiagnosticTestReport{admissions}
+}
+
+relationship OneToMany {
+	Admission to DoctorVisit{admissions}
+}
+
+
+entity LedgerItem {
+	time Instant,
+    description String,
+    fee Double,
+    isCoveredByInsurance Boolean,
+    isActive Boolean,
+    createdBy String,
+    createdOn Instant,
+    updatedBy String,
+    updatedOn Instant
+}
+
+relationship OneToMany {
+	Admission to LedgerItem{admission}
+}
+
+application {
+  config {
+    baseName HospitalBE
+    applicationType monolith
+    serverPort 9001
+    devDatabaseType h2Disk
+    prodDatabaseType mysql
+    clientFramework react
+    clientPackageManager npm
+    authenticationType jwt
+    buildTool maven
+    enableSwaggerCodegen true
+    enableTranslation true
+    languages	[bn, hi, en, mr, ta, te]
+    nativeLanguage	en
+    packageName com.farmer.be
+  }
+  entities *
+  dto * with mapstruct
+  paginate * with infinite-scroll
+  service all with serviceImpl
+}
