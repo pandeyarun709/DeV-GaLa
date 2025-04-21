@@ -1,0 +1,30 @@
+{
+  "hospitalBeApp": {
+    "qualification": {
+      "home": {
+        "title": "Qualifications",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Qualification बनाएँ",
+        "createOrEditLabel": "Qualification बनाएँ या संपादित करें",
+        "notFound": "No Qualifications found"
+      },
+      "created": "एक नया Qualification [identifier: {{ param }}] तैयार है",
+      "updated": "एक Qualification [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Qualification [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Qualification [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Qualification"
+      },
+      "id": "ID",
+      "name": "Name",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "employees": "Employees"
+    }
+  }
+}

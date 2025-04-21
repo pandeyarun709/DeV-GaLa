@@ -1,0 +1,44 @@
+{
+  "hospitalBeApp": {
+    "admission": {
+      "home": {
+        "title": "Admissions",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Admission-ஐ உருவாக்கு",
+        "createOrEditLabel": "Admission -ஐ மாற்று (அ) உருவாக்கு",
+        "notFound": "No Admissions found"
+      },
+      "created": "Admission புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Admission மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Admission நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Admission {{ id }}?"
+      },
+      "detail": {
+        "title": "Admission"
+      },
+      "id": "ID",
+      "details": "Details",
+      "admissionStatus": "Admission Status",
+      "dischargeStatus": "Discharge Status",
+      "admissionTime": "Admission Time",
+      "dischargeTime": "Discharge Time",
+      "paymentStatus": "Payment Status",
+      "totalBillAmount": "Total Bill Amount",
+      "insuranceCoveredAmount": "Insurance Covered Amount",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "medicineBatch": "Medicine Batch",
+      "diagnosticTestReport": "Diagnostic Test Report",
+      "doctorVisit": "Doctor Visit",
+      "ledgerItem": "Ledger Item",
+      "beds": "Beds",
+      "patient": "Patient",
+      "hospital": "Hospital",
+      "admittedUnder": "Admitted Under"
+    }
+  }
+}

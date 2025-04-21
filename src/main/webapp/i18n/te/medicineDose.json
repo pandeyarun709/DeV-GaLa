@@ -1,0 +1,31 @@
+{
+  "hospitalBeApp": {
+    "medicineDose": {
+      "home": {
+        "title": "Medicine Doses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "కొత్త Medicine Dose  సృష్టించండి",
+        "createOrEditLabel": "Medicine Dose సృష్టించండి లేదా సవరించండి",
+        "notFound": "No Medicine Doses found"
+      },
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త Medicine Dose సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త Medicine Dose సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త Medicine Dose తొలగించబడినది",
+      "delete": {
+        "question": "మీరు Medicine Dose {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "Medicine Dose"
+      },
+      "id": "ID",
+      "frequency": "Frequency",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "prescription": "Prescription",
+      "medicine": "Medicine"
+    }
+  }
+}

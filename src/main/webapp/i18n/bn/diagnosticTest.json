@@ -1,0 +1,38 @@
+{
+  "hospitalBeApp": {
+    "diagnosticTest": {
+      "home": {
+        "title": "Diagnostic Tests",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Diagnostic Test",
+        "createOrEditLabel": "Create or edit a Diagnostic Test",
+        "notFound": "No Diagnostic Tests found"
+      },
+      "created": "A new Diagnostic Test is created with identifier {{ param }}",
+      "updated": "A Diagnostic Test is updated with identifier {{ param }}",
+      "deleted": "A Diagnostic Test is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Diagnostic Test {{ id }}?"
+      },
+      "detail": {
+        "title": "Diagnostic Test"
+      },
+      "id": "ID",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "fee": "Fee",
+      "isInsuranceCovered": "Is Insurance Covered",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "employee": "Employee",
+      "diagnosticTestReport": "Diagnostic Test Report",
+      "slot": "Slot",
+      "department": "Department",
+      "prescription": "Prescription"
+    }
+  }
+}

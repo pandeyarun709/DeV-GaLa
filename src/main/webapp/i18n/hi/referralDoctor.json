@@ -1,0 +1,33 @@
+{
+  "hospitalBeApp": {
+    "referralDoctor": {
+      "home": {
+        "title": "ReferralDoctors",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Referral Doctor बनाएँ",
+        "createOrEditLabel": "Referral Doctor बनाएँ या संपादित करें",
+        "notFound": "No Referral Doctors found"
+      },
+      "created": "एक नया Referral Doctor [identifier: {{ param }}] तैयार है",
+      "updated": "एक Referral Doctor [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Referral Doctor [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Referral Doctor [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Referral Doctor"
+      },
+      "id": "ID",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "registrationNo": "Registration No",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "patientRegistrationDetails": "Patient Registration Details"
+    }
+  }
+}

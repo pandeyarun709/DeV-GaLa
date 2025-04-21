@@ -1,0 +1,27 @@
+{
+  "hospitalBeApp": {
+    "patientRegistrationDetails": {
+      "home": {
+        "title": "PatientRegistrationDetails",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Patient Registration Details बनाएँ",
+        "createOrEditLabel": "Patient Registration Details बनाएँ या संपादित करें",
+        "notFound": "No Patient Registration Details found"
+      },
+      "created": "एक नया Patient Registration Details [identifier: {{ param }}] तैयार है",
+      "updated": "एक Patient Registration Details [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Patient Registration Details [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Patient Registration Details [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Patient Registration Details"
+      },
+      "id": "ID",
+      "registrationId": "Registration Id",
+      "client": "Client",
+      "hospital": "Hospital",
+      "referredBy": "Referred By"
+    }
+  }
+}

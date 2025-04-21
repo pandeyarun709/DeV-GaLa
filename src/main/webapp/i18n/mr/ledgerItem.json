@@ -1,0 +1,33 @@
+{
+  "hospitalBeApp": {
+    "ledgerItem": {
+      "home": {
+        "title": "Ledger Items",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नवीन Ledger Item तयार करा",
+        "createOrEditLabel": "Ledger Item तयार किंवा संपादित करा",
+        "notFound": "No Ledger Items found"
+      },
+      "created": "Ledger Item [identifier: {{ param }}] तयार आहे",
+      "updated": "Ledger Item [identifier: {{ param }}] सुधारित केले आहे",
+      "deleted": "Ledger Item [identifier: {{ param }}] हटविले आहे",
+      "delete": {
+        "question": "Ledger Item [id: {{ id }}] काढून टाकण्याबाबत पुष्टी?"
+      },
+      "detail": {
+        "title": "Ledger Item"
+      },
+      "id": "ID",
+      "time": "Time",
+      "description": "Description",
+      "fee": "Fee",
+      "isCoveredByInsurance": "Is Covered By Insurance",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "admission": "Admission"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "hospitalBeApp": {
+    "prescription": {
+      "home": {
+        "title": "Prescriptions",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Prescription",
+        "createOrEditLabel": "Create or edit a Prescription",
+        "notFound": "No Prescriptions found"
+      },
+      "created": "A new Prescription is created with identifier {{ param }}",
+      "updated": "A Prescription is updated with identifier {{ param }}",
+      "deleted": "A Prescription is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Prescription {{ id }}?"
+      },
+      "detail": {
+        "title": "Prescription"
+      },
+      "id": "ID",
+      "history": "History",
+      "compliant": "Compliant",
+      "height": "Height",
+      "weight": "Weight",
+      "bpHigh": "Bp High",
+      "bpLow": "Bp Low",
+      "temperature": "Temperature",
+      "otherVital": "Other Vital",
+      "description": "Description",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "medicineDose": "Medicine Dose",
+      "diagnosticTest": "Diagnostic Test",
+      "doctorVisitType": "Doctor Visit Type"
+    }
+  }
+}

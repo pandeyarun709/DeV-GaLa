@@ -1,0 +1,27 @@
+{
+  "hospitalBeApp": {
+    "patientRegistrationDetails": {
+      "home": {
+        "title": "Patient Registration Details",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Patient Registration Details",
+        "createOrEditLabel": "Create or edit a Patient Registration Details",
+        "notFound": "No Patient Registration Details found"
+      },
+      "created": "A new Patient Registration Details is created with identifier {{ param }}",
+      "updated": "A Patient Registration Details is updated with identifier {{ param }}",
+      "deleted": "A Patient Registration Details is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Patient Registration Details {{ id }}?"
+      },
+      "detail": {
+        "title": "Patient Registration Details"
+      },
+      "id": "ID",
+      "registrationId": "Registration Id",
+      "client": "Client",
+      "hospital": "Hospital",
+      "referredBy": "Referred By"
+    }
+  }
+}

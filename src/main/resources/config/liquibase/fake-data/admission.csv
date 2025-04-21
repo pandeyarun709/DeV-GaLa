@@ -1,0 +1,11 @@
+id;details;admission_status;discharge_status;admission_time;discharge_time;payment_status;total_bill_amount;insurance_covered_amount;is_active;created_by;created_on;updated_by;updated_on
+1;courteous;PoliceVerificationNeeded;Other;2025-04-20T08:17:47;2025-04-20T12:24:09;Paid;28317.11;186.88;false;hmph weep gadzooks;2025-04-21T02:26:22;burgeon lend meh;2025-04-21T00:52:28
+2;after instead huddle;Other;Other;2025-04-21T06:39:00;2025-04-20T18:03:04;Pending;22262.04;11086.35;false;exempt;2025-04-20T08:29:41;upon;2025-04-20T19:34:38
+3;bah;PoliceVerificationNeeded;Expired;2025-04-21T05:55:43;2025-04-21T01:00:35;PendingFromInsurance;15934.76;3999.16;false;debut unaccountably notwithstanding;2025-04-20T08:37:15;behind;2025-04-20T14:05:54
+4;zesty;PoliceVerificationNeeded;NotDischarged;2025-04-20T21:01:30;2025-04-20T17:59:50;PartiallyPaid;14195.85;30988.71;true;milky consequently;2025-04-20T10:04:25;optimistic nor;2025-04-20T13:50:18
+5;above afore;Accidental;NormalDischarge;2025-04-20T09:05:39;2025-04-20T17:56:41;PendingFromInsurance;12984.27;20894.22;true;outrageous justly zebra;2025-04-20T12:08:07;for;2025-04-21T00:04:20
+6;nimble;Other;NormalDischarge;2025-04-20T13:24:57;2025-04-21T00:50:31;Pending;28711.13;19762.15;false;although;2025-04-20T14:41:01;boohoo;2025-04-20T11:39:00
+7;excepting testing conjecture;Accidental;NormalDischarge;2025-04-21T02:54:55;2025-04-21T05:17:40;Pending;26385.08;17489.89;true;zany;2025-04-20T23:05:28;nervous questioningly pine;2025-04-20T23:23:48
+8;rapid nougat;Other;DiscragedOnOwnRisk;2025-04-21T00:16:21;2025-04-20T09:05:51;Pending;26868.42;13269.85;false;adjourn;2025-04-20T17:26:00;phew boring;2025-04-20T19:47:37
+9;blissfully how disappointment;PlannedAdmission;NormalDischarge;2025-04-20T16:26:18;2025-04-20T08:22:46;Pending;26402.9;31568.45;false;motivate;2025-04-20T09:02:09;granny;2025-04-20T18:49:08
+10;westernize instead;EmergencyAdmission;DiscragedOnOwnRisk;2025-04-20T18:10:21;2025-04-20T09:29:55;Pending;23206.19;22987.19;true;uh-huh ouch;2025-04-21T01:57:47;an;2025-04-20T14:18:07

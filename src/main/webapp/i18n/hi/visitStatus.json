@@ -1,0 +1,9 @@
+{
+  "hospitalBeApp": {
+    "VisitStatus": {
+      "null": "",
+      "Planned": "Planned",
+      "Visited": "Visited"
+    }
+  }
+}

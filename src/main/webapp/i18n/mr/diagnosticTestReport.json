@@ -1,0 +1,33 @@
+{
+  "hospitalBeApp": {
+    "diagnosticTestReport": {
+      "home": {
+        "title": "Diagnostic Test Reports",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नवीन Diagnostic Test Report तयार करा",
+        "createOrEditLabel": "Diagnostic Test Report तयार किंवा संपादित करा",
+        "notFound": "No Diagnostic Test Reports found"
+      },
+      "created": "Diagnostic Test Report [identifier: {{ param }}] तयार आहे",
+      "updated": "Diagnostic Test Report [identifier: {{ param }}] सुधारित केले आहे",
+      "deleted": "Diagnostic Test Report [identifier: {{ param }}] हटविले आहे",
+      "delete": {
+        "question": "Diagnostic Test Report [id: {{ id }}] काढून टाकण्याबाबत पुष्टी?"
+      },
+      "detail": {
+        "title": "Diagnostic Test Report"
+      },
+      "id": "ID",
+      "description": "Description",
+      "signedBy": "Signed By",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "patient": "Patient",
+      "test": "Test",
+      "admissions": "Admissions"
+    }
+  }
+}

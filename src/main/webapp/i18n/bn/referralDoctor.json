@@ -1,0 +1,33 @@
+{
+  "hospitalBeApp": {
+    "referralDoctor": {
+      "home": {
+        "title": "Referral Doctors",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Referral Doctor",
+        "createOrEditLabel": "Create or edit a Referral Doctor",
+        "notFound": "No Referral Doctors found"
+      },
+      "created": "A new Referral Doctor is created with identifier {{ param }}",
+      "updated": "A Referral Doctor is updated with identifier {{ param }}",
+      "deleted": "A Referral Doctor is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Referral Doctor {{ id }}?"
+      },
+      "detail": {
+        "title": "Referral Doctor"
+      },
+      "id": "ID",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "registrationNo": "Registration No",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "patientRegistrationDetails": "Patient Registration Details"
+    }
+  }
+}

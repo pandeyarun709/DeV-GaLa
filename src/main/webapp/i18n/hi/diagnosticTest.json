@@ -1,0 +1,38 @@
+{
+  "hospitalBeApp": {
+    "diagnosticTest": {
+      "home": {
+        "title": "DiagnosticTests",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Diagnostic Test बनाएँ",
+        "createOrEditLabel": "Diagnostic Test बनाएँ या संपादित करें",
+        "notFound": "No Diagnostic Tests found"
+      },
+      "created": "एक नया Diagnostic Test [identifier: {{ param }}] तैयार है",
+      "updated": "एक Diagnostic Test [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Diagnostic Test [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Diagnostic Test [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Diagnostic Test"
+      },
+      "id": "ID",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "fee": "Fee",
+      "isInsuranceCovered": "Is Insurance Covered",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "employee": "Employee",
+      "diagnosticTestReport": "Diagnostic Test Report",
+      "slot": "Slot",
+      "department": "Department",
+      "prescription": "Prescription"
+    }
+  }
+}

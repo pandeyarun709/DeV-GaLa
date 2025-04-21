@@ -1,0 +1,77 @@
+{
+  "annotations": {
+    "changelogDate": "20250421065053"
+  },
+  "applications": ["HospitalBE"],
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "VisitStatus",
+      "fieldValues": "Planned,Visited"
+    },
+    {
+      "fieldName": "visitDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "visitTime",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "isActive",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "createdBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "updatedBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "updatedOn",
+      "fieldType": "Instant"
+    }
+  ],
+  "name": "DoctorVisit",
+  "pagination": "infinite-scroll",
+  "relationships": [
+    {
+      "otherEntityName": "prescription",
+      "otherEntityRelationshipName": "doctorVisitType",
+      "relationshipName": "prescription",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "doctorVisitType",
+      "relationshipName": "doctorVisitType",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "patient",
+      "relationshipName": "patient",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "admission",
+      "relationshipName": "admissions",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

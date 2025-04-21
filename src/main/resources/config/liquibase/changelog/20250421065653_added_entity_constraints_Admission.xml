@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+    <!--
+        Added the constraints for entity Admission.
+    -->
+    <changeSet id="20250421065653-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="admission_id"
+                                 baseTableName="rel_admission__beds"
+                                 constraintName="fk_rel_admission__beds__admission_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="admission"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="beds_id"
+                                 baseTableName="rel_admission__beds"
+                                 constraintName="fk_rel_admission__beds__beds_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="bed"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="patient_id"
+                                 baseTableName="admission"
+                                 constraintName="fk_admission__patient_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="patient"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="hospital_id"
+                                 baseTableName="admission"
+                                 constraintName="fk_admission__hospital_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="hospital"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="admitted_under_id"
+                                 baseTableName="admission"
+                                 constraintName="fk_admission__admitted_under_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="employee"
+                                 />
+    </changeSet>
+</databaseChangeLog>

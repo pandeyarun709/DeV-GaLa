@@ -1,0 +1,93 @@
+{
+  "annotations": {
+    "changelogDate": "20250421064453"
+  },
+  "applications": ["HospitalBE"],
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "phone",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "email",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "registrationNo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "rmoHourlyRate",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "type",
+      "fieldType": "EmployeeType",
+      "fieldValues": "Doctor,Nurse,RMO,Receptionst,Technician"
+    },
+    {
+      "fieldName": "isActive",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "createdBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "updatedBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "updatedOn",
+      "fieldType": "Instant"
+    }
+  ],
+  "name": "Employee",
+  "pagination": "infinite-scroll",
+  "relationships": [
+    {
+      "otherEntityName": "doctorVisitType",
+      "otherEntityRelationshipName": "doctor",
+      "relationshipName": "doctorVisitType",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "admission",
+      "otherEntityRelationshipName": "admittedUnder",
+      "relationshipName": "admission",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "qualification",
+      "otherEntityRelationshipName": "employees",
+      "relationshipName": "qualifications",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-many"
+    },
+    {
+      "otherEntityName": "department",
+      "relationshipName": "department",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "diagnosticTest",
+      "relationshipName": "test",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

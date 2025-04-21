@@ -1,0 +1,37 @@
+{
+  "hospitalBeApp": {
+    "hospital": {
+      "home": {
+        "title": "Hospitals",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Hospital-ஐ உருவாக்கு",
+        "createOrEditLabel": "Hospital -ஐ மாற்று (அ) உருவாக்கு",
+        "notFound": "No Hospitals found"
+      },
+      "created": "Hospital புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Hospital மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Hospital நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Hospital {{ id }}?"
+      },
+      "detail": {
+        "title": "Hospital"
+      },
+      "id": "ID",
+      "name": "Name",
+      "logoPath": "Logo Path",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "address": "Address",
+      "patientRegistrationDetails": "Patient Registration Details",
+      "department": "Department",
+      "bed": "Bed",
+      "medicineBatch": "Medicine Batch",
+      "admission": "Admission",
+      "client": "Client"
+    }
+  }
+}

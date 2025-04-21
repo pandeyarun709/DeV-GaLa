@@ -1,0 +1,11 @@
+{
+  "hospitalBeApp": {
+    "PaymentStatus": {
+      "null": "",
+      "Paid": "Paid",
+      "Pending": "Pending",
+      "PartiallyPaid": "PartiallyPaid",
+      "PendingFromInsurance": "PendingFromInsurance"
+    }
+  }
+}

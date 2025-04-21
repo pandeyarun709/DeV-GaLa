@@ -1,0 +1,110 @@
+{
+  "annotations": {
+    "changelogDate": "20250421064053"
+  },
+  "applications": ["HospitalBE"],
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "registrationId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "phone",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "email",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "sex",
+      "fieldType": "Sex",
+      "fieldValues": "Male,Female"
+    },
+    {
+      "fieldName": "dateOfBirth",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "bloodGroup",
+      "fieldType": "BloodGroup",
+      "fieldValues": "AP,AN,BP,BN,ABP,ABN,OP,ON"
+    },
+    {
+      "fieldName": "emergencyContactName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "emergencyContactPhone",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "emergencyContactEmail",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "emergencyContactRelationShip",
+      "fieldType": "Relationship",
+      "fieldValues": "Spouse,Parent,Son,Daugher,GrandSon,GrandDaughter,GrandParent,Friend,Relative,Other"
+    },
+    {
+      "fieldName": "isActive",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "createdBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "updatedBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "updatedOn",
+      "fieldType": "Instant"
+    }
+  ],
+  "name": "Patient",
+  "pagination": "infinite-scroll",
+  "relationships": [
+    {
+      "otherEntityName": "address",
+      "otherEntityRelationshipName": "patient",
+      "relationshipName": "address",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "diagnosticTestReport",
+      "otherEntityRelationshipName": "patient",
+      "relationshipName": "diagnosticTestReport",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "doctorVisit",
+      "otherEntityRelationshipName": "patient",
+      "relationshipName": "doctorVisit",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "admission",
+      "otherEntityRelationshipName": "patient",
+      "relationshipName": "admission",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

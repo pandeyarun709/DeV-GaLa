@@ -1,0 +1,35 @@
+{
+  "hospitalBeApp": {
+    "slot": {
+      "home": {
+        "title": "Slots",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Slot बनाएँ",
+        "createOrEditLabel": "Slot बनाएँ या संपादित करें",
+        "notFound": "No Slots found"
+      },
+      "created": "एक नया Slot [identifier: {{ param }}] तैयार है",
+      "updated": "एक Slot [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Slot [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Slot [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Slot"
+      },
+      "id": "ID",
+      "day": "Day",
+      "startTimeHour": "Start Time Hour",
+      "startTimeMin": "Start Time Min",
+      "endTimeHour": "End Time Hour",
+      "endTimeMin": "End Time Min",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "doctorVisitType": "Doctor Visit Type",
+      "test": "Test"
+    }
+  }
+}

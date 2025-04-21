@@ -1,0 +1,33 @@
+{
+  "hospitalBeApp": {
+    "diagnosticTestReport": {
+      "home": {
+        "title": "Diagnostic Test Reports",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Diagnostic Test Report",
+        "createOrEditLabel": "Create or edit a Diagnostic Test Report",
+        "notFound": "No Diagnostic Test Reports found"
+      },
+      "created": "A new Diagnostic Test Report is created with identifier {{ param }}",
+      "updated": "A Diagnostic Test Report is updated with identifier {{ param }}",
+      "deleted": "A Diagnostic Test Report is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Diagnostic Test Report {{ id }}?"
+      },
+      "detail": {
+        "title": "Diagnostic Test Report"
+      },
+      "id": "ID",
+      "description": "Description",
+      "signedBy": "Signed By",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "patient": "Patient",
+      "test": "Test",
+      "admissions": "Admissions"
+    }
+  }
+}

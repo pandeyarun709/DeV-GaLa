@@ -1,0 +1,37 @@
+{
+  "hospitalBeApp": {
+    "medicineBatch": {
+      "home": {
+        "title": "MedicineBatches",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Medicine Batch बनाएँ",
+        "createOrEditLabel": "Medicine Batch बनाएँ या संपादित करें",
+        "notFound": "No Medicine Batches found"
+      },
+      "created": "एक नया Medicine Batch [identifier: {{ param }}] तैयार है",
+      "updated": "एक Medicine Batch [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Medicine Batch [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Medicine Batch [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Medicine Batch"
+      },
+      "id": "ID",
+      "batchNo": "Batch No",
+      "expiryDate": "Expiry Date",
+      "quantity": "Quantity",
+      "sellingPrice": "Selling Price",
+      "storageLocation": "Storage Location",
+      "rackNo": "Rack No",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "med": "Med",
+      "hospital": "Hospital",
+      "admissions": "Admissions"
+    }
+  }
+}

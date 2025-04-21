@@ -1,0 +1,34 @@
+{
+  "hospitalBeApp": {
+    "doctorVisitType": {
+      "home": {
+        "title": "Doctor Visit Types",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Doctor Visit Type-ஐ உருவாக்கு",
+        "createOrEditLabel": "Doctor Visit Type -ஐ மாற்று (அ) உருவாக்கு",
+        "notFound": "No Doctor Visit Types found"
+      },
+      "created": "Doctor Visit Type புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Doctor Visit Type மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Doctor Visit Type நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Doctor Visit Type {{ id }}?"
+      },
+      "detail": {
+        "title": "Doctor Visit Type"
+      },
+      "id": "ID",
+      "type": "Type",
+      "fee": "Fee",
+      "isInsuranceCovered": "Is Insurance Covered",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "slot": "Slot",
+      "doctorVisit": "Doctor Visit",
+      "doctor": "Doctor"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "annotations": {
+    "changelogDate": "20250421064853"
+  },
+  "applications": ["HospitalBE"],
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "type",
+      "fieldType": "VisitType",
+      "fieldValues": "InpatientVisit,OutpatientVisit,OT,DiagnosticTestProcedure,Dialysis,Emergency,Other"
+    },
+    {
+      "fieldName": "fee",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "isInsuranceCovered",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "isActive",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "createdBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "updatedBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "updatedOn",
+      "fieldType": "Instant"
+    }
+  ],
+  "name": "DoctorVisitType",
+  "pagination": "infinite-scroll",
+  "relationships": [
+    {
+      "otherEntityName": "slot",
+      "otherEntityRelationshipName": "doctorVisitType",
+      "relationshipName": "slot",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "doctorVisit",
+      "otherEntityRelationshipName": "doctorVisitType",
+      "relationshipName": "doctorVisit",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "employee",
+      "relationshipName": "doctor",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

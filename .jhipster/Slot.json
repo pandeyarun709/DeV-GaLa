@@ -1,0 +1,68 @@
+{
+  "annotations": {
+    "changelogDate": "20250421064953"
+  },
+  "applications": ["HospitalBE"],
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "day",
+      "fieldType": "Day",
+      "fieldValues": "Mon,Tue,Wed,Thu,Fri,Sat,Sun"
+    },
+    {
+      "fieldName": "startTimeHour",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "startTimeMin",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "endTimeHour",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "endTimeMin",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "isActive",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "createdBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "updatedBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "updatedOn",
+      "fieldType": "Instant"
+    }
+  ],
+  "name": "Slot",
+  "pagination": "infinite-scroll",
+  "relationships": [
+    {
+      "otherEntityName": "doctorVisitType",
+      "relationshipName": "doctorVisitType",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "diagnosticTest",
+      "relationshipName": "test",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

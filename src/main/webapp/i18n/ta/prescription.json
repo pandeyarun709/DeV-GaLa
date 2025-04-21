@@ -1,0 +1,40 @@
+{
+  "hospitalBeApp": {
+    "prescription": {
+      "home": {
+        "title": "Prescriptions",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Prescription-ஐ உருவாக்கு",
+        "createOrEditLabel": "Prescription -ஐ மாற்று (அ) உருவாக்கு",
+        "notFound": "No Prescriptions found"
+      },
+      "created": "Prescription புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Prescription மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Prescription நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Prescription {{ id }}?"
+      },
+      "detail": {
+        "title": "Prescription"
+      },
+      "id": "ID",
+      "history": "History",
+      "compliant": "Compliant",
+      "height": "Height",
+      "weight": "Weight",
+      "bpHigh": "Bp High",
+      "bpLow": "Bp Low",
+      "temperature": "Temperature",
+      "otherVital": "Other Vital",
+      "description": "Description",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "medicineDose": "Medicine Dose",
+      "diagnosticTest": "Diagnostic Test",
+      "doctorVisitType": "Doctor Visit Type"
+    }
+  }
+}
